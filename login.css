@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    border: 0;
+    background-color: #0d1117;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+.login-container{
+    min-height: 100vh;
+    width: 100%;
+    background: radial-gradient(circle at top,
+    #123c3c 0%,
+    #07111f 45%,
+    #020617 100%
+    );
+    padding: 60px 20px;
+}
+
+.heading{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 14px;
+    background: rgba(20, 184, 166, 0.08);
+    backdrop-filter: blur(18px);
+    border: 2px solid rgba(20, 184, 166, 0.25);
+    /* box-shadow: 0 0 25px rgba(20, 184, 166, 0.08); */
+    box-shadow: 0 0 25px rgba(20, 184, 166, 0.08),
+    inset 0 1px 1px rgba(255,255,255,0.05);
+}
+
+.logo i{
+    font-size: 35px;
+    color: #2dd4bf;
+}
+
+.heading h1{
+    font-size: 30px;
+    color: #f8fafc;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    margin-bottom: 0;
+}
+
+.heading p{
+    color: #94a3b8;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.sub-text{
+    color: rgba(41, 206, 187, 0.516);
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+}
