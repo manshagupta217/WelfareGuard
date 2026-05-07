@@ -68,11 +68,11 @@ body{
     font-size: 15px;
     font-weight: 400;
     letter-spacing: 1.5px;
-    margin-bottom: 25px;
+    margin-bottom: 35px;
 }
 
 .login-card{
-    width: 420px;
+    width: 480px;
     padding: 32px;
     display: flex;
     flex-direction: column;
